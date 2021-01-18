@@ -1,0 +1,124 @@
+body{
+    font-family: 'Cabin', sans-serif;
+
+    font-size: 3vh;
+    margin: 60px,80px;
+
+}
+
+/* navigation bar */
+.navbar{
+    text-align: right;
+}
+.navbar li{
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
+    font-size: 2vh;
+}
+.navbar ul{
+    margin-top: 30px;
+}/* navgigaton finised */
+.firstsec{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+    
+}
+ .buttton{
+    
+    background-color:rgb(27, 49, 175);
+    padding: 20px 40px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.buttton a{
+    text-decoration: none;
+    color: white;
+    
+}
+#latest, #akib{
+    color: rgb(241, 140, 7);
+}
+
+.pic1 img{
+    width: 400px;
+}
+
+.flexkorbo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+}
+.pic1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.threegrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 30px;
+    padding: 5px;
+}
+.card img{
+    width: 300px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  
+    
+    
+}
+.thirdsec{
+    background-color: rgb(169, 223, 248);
+    margin: 100px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+.one{
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.icons img{
+    width: 50px;
+    margin: 20px;
+}
+.google img{
+    width: 50px;
+    padding: 30px;
+    
+}
+.google{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+#email{
+    display: flex;
+    align-items: center;
+}
+
+#connected{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+#at{
+    color: rgb(221, 173, 52);
+    font-size: 50px;
+}
